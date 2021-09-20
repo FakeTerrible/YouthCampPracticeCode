@@ -19,6 +19,7 @@
     "download-git-repo": "^3.0.2",
     "figlet": "^1.5.2",
     "handlebars": "^4.7.7",
-    "open": "^8.2.1"
+    "open": "^8.2.1",
+    "ora": "^5.4.1"
   }
 }
