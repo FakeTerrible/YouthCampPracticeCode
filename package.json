@@ -1,0 +1,20 @@
+{
+  "name": "youthcamppracticecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FakeTerrible/YouthCampPracticeCode.git"
+  },
+  "keywords": [],
+  "author": "ShiYC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FakeTerrible/YouthCampPracticeCode/issues"
+  },
+  "homepage": "https://github.com/FakeTerrible/YouthCampPracticeCode#readme"
+}
