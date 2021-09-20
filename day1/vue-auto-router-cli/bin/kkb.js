@@ -1,2 +1,9 @@
 #!/usr/bin/env node
-console.log('hello cli ...')
+const program = require("commander");
+
+program.version(require("../package.json").version);
+program
+  .command("init <name>")
+  .description("init project")
+  .action(require('../lib/init'));
+program.parse(process.argv);
