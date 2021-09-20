@@ -8,6 +8,13 @@ const { clone } = require("./download");
 const open = require("open");
 
 const spawn = async (...args) => {
+  const options = args[args.length -1]
+  if(process.platform === 'win32'){
+    console.log('win32')
+    options.shell = true
+  }else{
+    console.log('Linux/Unix')
+  }
   // 同步 Promise api
 
   const { spawn } = require("child_process");
