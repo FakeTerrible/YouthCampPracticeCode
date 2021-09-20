@@ -1,7 +1,7 @@
 {
   "name": "vue-auto-router-cli-shi",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "vue-auto-router-cli made by shiyc",
   "main": "index.js",
   "bin": {
     "kkb": "./bin/kkb.js"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "ShiYC",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
