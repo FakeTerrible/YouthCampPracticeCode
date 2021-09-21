@@ -1,0 +1,12 @@
+{
+  "name": "1x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"rm -rf ./haha && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
